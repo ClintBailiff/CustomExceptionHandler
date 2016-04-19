@@ -2,7 +2,7 @@
 Middleware project that can be added to a Web Application or Web API project or compiled into a NuGet package.
 Includes a demo Web Application that is a slightly modified Standard ASP.NET 5 Template project with no authentication.
 
-Key areas of the code are marked by **_*POI_** (point of interest) in the comments.  Just search the solution for **_*POI_** to read about these key areas.
+Key areas of the code are marked by **_*POI_** (point of interest) in the comments.  Search the solution for **_*POI_** to read about these key areas.
 
 The CustomExceptionHandler middleware catches exceptions in the Http pipeline and redirects to an error page or returns a response that contains the error message.  It returns an error message when an exception occurs during a call to a Web API method.  It knows the call is to a Web API method by the base routes that are passed to it in the Starup.Configure() method of the parent application.  It also logs the exceptions and client information in a SQL database.  It does the logging in a separate thread to improve performance.  The logging functionality can be disabled by a boolean parameter that is supplied when adding the middleware to the Http pipeline in the Starup.Configure() method of the parent application.
 
