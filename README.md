@@ -14,6 +14,9 @@ Key areas of the code are marked by **_*POI_** (point of interest) in the commen
 
 This is the second in a series of posts on ASP.NET Core examples that I am creating.  I've worked through many issues porting an MVC 5 application to ASP.NET Core and I thought there might be people out there who could benefit from the things I've learned.  Also, I want to have some examples for my own reference.
 
+View the previous post from this series:   
+[Middleware with dependency injection in three simple steps](https://github.com/ClintBailiff/MiddlewareDemo)
+
 I hope this helps someone and any comments or suggestions are appreciated.
 
 
