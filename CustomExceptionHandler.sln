@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B7FB26E2-9BAB-4769-9E20-721BE95FA1A8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DA7789F2-B6CE-4C61-89FB-88E1BDDD60BD}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "CustomExceptionHandler", "src\CustomExceptionHandler\CustomExceptionHandler.xproj", "{34CC60FC-C483-4094-98BA-33955BBF4131}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "DemoApp", "DemoApp\src\DemoApp\DemoApp.xproj", "{D874CCC0-64F4-4071-A89B-E41BEC711CE4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34CC60FC-C483-4094-98BA-33955BBF4131}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34CC60FC-C483-4094-98BA-33955BBF4131}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34CC60FC-C483-4094-98BA-33955BBF4131}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34CC60FC-C483-4094-98BA-33955BBF4131}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D874CCC0-64F4-4071-A89B-E41BEC711CE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D874CCC0-64F4-4071-A89B-E41BEC711CE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D874CCC0-64F4-4071-A89B-E41BEC711CE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D874CCC0-64F4-4071-A89B-E41BEC711CE4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{34CC60FC-C483-4094-98BA-33955BBF4131} = {B7FB26E2-9BAB-4769-9E20-721BE95FA1A8}
+		{D874CCC0-64F4-4071-A89B-E41BEC711CE4} = {B7FB26E2-9BAB-4769-9E20-721BE95FA1A8}
+	EndGlobalSection
+EndGlobal

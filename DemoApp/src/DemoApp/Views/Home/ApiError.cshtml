@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["Title"] = "API Error Demo";
+}
+<h3>@ViewData["Title"]</h3>
+<h4>Click the Call API button below to return an exception from a Web API method.</h4>
+<br />
+<br />
+<p>
+  <button id="ApiError" type="button" class="btn btn-primary btn-sm">Call API</button>
+</p>
+<br />
+<p>
+  Set the environment variable to Debug to return the exception details.
+  <br />
+  <br />
+  Set the environment variable to something other then Debug to return a generic error message.
+</p>
+@section Scripts {
+  <script src="~/js/apierror.js"></script>
+}
